@@ -3,9 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="19758cd8-2652-40fd-8e09-fbc222c3da56" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/AI Coursework/ai/BankDetails.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/AI Coursework/ai/BankDetails.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/ai/BankDetails.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ai/BankDetails.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ai/Diabetes.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ai/Diabetes.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ai/MarketBasket.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ai/MarketBasket.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -19,8 +18,32 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/ai/BankDetails.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="168">
-              <caret line="53" column="43" selection-start-line="53" selection-start-column="43" selection-end-line="53" selection-end-column="43" />
+            <state relative-caret-position="651">
+              <caret line="70" column="47" selection-start-line="70" selection-start-column="47" selection-end-line="70" selection-end-column="47" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/ai/Diabetes.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="275">
+              <caret line="19" column="4" selection-start-line="19" selection-start-column="4" selection-end-line="19" selection-end-column="4" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/ai/MarketBasket.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="378">
+              <caret line="18" selection-start-line="18" selection-end-line="18" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -45,13 +68,13 @@
       <list>
         <option value="$PROJECT_DIR$/src/ai/ai/MarketBasket.java" />
         <option value="$PROJECT_DIR$/src/ai/DIabetes.java" />
-        <option value="$PROJECT_DIR$/src/ai/MarketBasket.java" />
         <option value="$PROJECT_DIR$/src/ai/Diabetes.java" />
+        <option value="$PROJECT_DIR$/src/ai/MarketBasket.java" />
         <option value="$PROJECT_DIR$/src/ai/BankDetails.java" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds" extendedState="7">
     <option name="y" value="25" />
     <option name="width" value="960" />
     <option name="height" value="1055" />
@@ -62,7 +85,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -85,20 +108,20 @@
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1551448129292" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1551902164872" />
     <property name="last_opened_file_path" value="$USER_HOME$/weka.jar!/" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Libraries" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
-    <property name="settings.editor.selected.configurable" value="Errors" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -155,8 +178,8 @@
     <recent_temporary>
       <list>
         <item itemvalue="Application.BankDetails" />
-        <item itemvalue="Application.Diabetes" />
         <item itemvalue="Application.MarketBasket" />
+        <item itemvalue="Application.Diabetes" />
       </list>
     </recent_temporary>
   </component>
@@ -171,18 +194,21 @@
       <option name="presentableId" value="Default" />
       <updated>1551348337152</updated>
       <workItem from="1551348342618" duration="14214000" />
-      <workItem from="1551439856610" duration="4536000" />
+      <workItem from="1551439856610" duration="5137000" />
+      <workItem from="1551455884179" duration="4438000" />
+      <workItem from="1551710769033" duration="9650000" />
+      <workItem from="1551898474974" duration="2001000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="18750000" />
+    <option name="totallyTimeSpent" value="35440000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-1" y="25" width="1922" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.11022364" />
+      <window_info content_ui="combo" id="Project" order="0" weight="0.11235357" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -191,7 +217,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.08470847" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.96753246" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -219,20 +245,20 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/BankDetails.java" />
     <entry file="file://$PROJECT_DIR$/src/ai/ai/MarketBasket.java" />
-    <entry file="file://$PROJECT_DIR$/src/ai/MarketBasket.java">
+    <entry file="file://$PROJECT_DIR$/src/ai/Diabetes.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="336">
-          <caret line="16" column="41" selection-start-line="16" selection-start-column="41" selection-end-line="16" selection-end-column="41" />
+        <state relative-caret-position="275">
+          <caret line="19" column="4" selection-start-line="19" selection-start-column="4" selection-end-line="19" selection-end-column="4" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/ai/Diabetes.java">
+    <entry file="file://$PROJECT_DIR$/src/ai/MarketBasket.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-319">
-          <caret line="2" lean-forward="true" selection-start-line="2" selection-end-line="2" />
+        <state relative-caret-position="378">
+          <caret line="18" selection-start-line="18" selection-end-line="18" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -241,8 +267,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/ai/BankDetails.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="168">
-          <caret line="53" column="43" selection-start-line="53" selection-start-column="43" selection-end-line="53" selection-end-column="43" />
+        <state relative-caret-position="651">
+          <caret line="70" column="47" selection-start-line="70" selection-start-column="47" selection-end-line="70" selection-end-column="47" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

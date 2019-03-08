@@ -13,7 +13,7 @@ public class BankDetails {
         ConverterUtils.DataSource source = new ConverterUtils.DataSource("/home/alex/AI stuff/bank-data.csv");
         Instances dataSet = source.getDataSet();
 
-        //region
+        //region vs income
         Instances region = new Instances(dataSet, 0, dataSet.numInstances());
         int innerCity = region.numAttributes();
         for (int i = 0; i <innerCity ; i++) {
@@ -30,23 +30,23 @@ public class BankDetails {
             region.deleteAttributeAt(2);
         }
 
-        //age
+        //age vs region vs income
         Instances age = new Instances (dataSet, 0, dataSet.numInstances());
         age.deleteAttributeAt(0);
         age.deleteAttributeAt(1);
         for (int i = 0; i < 7; i++) {
             age.deleteAttributeAt(3);
         }
+        //children vs saving account vs current account
+        Instances children = new Instances(dataSet, 0, dataSet.numInstances());
+        for (int i = 0; i < 6; i++) {
+            children.deleteAttributeAt(0);
+        }
+        children.deleteAttributeAt(1);
+        for (int i = 0; i < 2; i++) {
+            children.deleteAttributeAt(3);
+        }
 
-        //marriage
-        Instances marriage = new Instances(dataSet, 0, dataSet.numInstances());
-        for (int i = 0; i < 5; i++) {
-            marriage.deleteAttributeAt(0);
-        }
-        for (int i = 0; i < 4; i++) {
-            marriage.deleteAttributeAt(1);
-        }
-        marriage.deleteAttributeAt(2);
 
         //region vs income
         SimpleKMeans regionModel = new SimpleKMeans();
@@ -59,20 +59,20 @@ public class BankDetails {
 
         //age vs region and income
         SimpleKMeans ageModel = new SimpleKMeans();
-        ageModel.setNumClusters(10);
+        ageModel.setNumClusters(13);
         ageModel.buildClusterer(age);
         ClusterEvaluation ageEvaluation = new ClusterEvaluation();
         ageEvaluation.setClusterer(ageModel);
         ageEvaluation.evaluateClusterer(age);
         System.out.println(ageEvaluation.clusterResultsToString());
 
-        //marriage vs mortgage
-        SimpleKMeans marriageMortgageModel = new SimpleKMeans();
-        marriageMortgageModel.setNumClusters(10);
-        marriageMortgageModel.buildClusterer(marriage);
-        ClusterEvaluation marriageEval = new ClusterEvaluation();
-        marriageEval.setClusterer(marriageMortgageModel);
-        marriageEval.evaluateClusterer(marriage);
-        System.out.println(marriageEval.clusterResultsToString());
+        //children vs accounts
+        SimpleKMeans childrenAccountsModel = new SimpleKMeans();
+        childrenAccountsModel.setNumClusters(13);
+        childrenAccountsModel.buildClusterer(children);
+        ClusterEvaluation childEval = new ClusterEvaluation();
+        childEval.setClusterer(childrenAccountsModel);
+        childEval.evaluateClusterer(children);
+        System.out.println(childEval.clusterResultsToString());
     }
 }
